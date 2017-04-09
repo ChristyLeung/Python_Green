@@ -8,7 +8,7 @@ for admin in admins:
         print("\nHello " + admin + ".\n")
 
 
-# 5-9
+# Try 5-9
 admins = []
 
 if admins:
@@ -18,7 +18,7 @@ del admins[0:6]
 print(admins)
 
 
-# 5-10
+# Try 5-10
 current_users = ['admin', 'Christy', 'Yins', 'Mercury', 'Lavande']
 
 new_users = ['admin', 'Christy', 'Yins', 'Hotaru', 'Lavender']
@@ -33,7 +33,7 @@ for new_user in new_users:
 
 
 
-# 5-11
+# Try 5-11
 numbers = ['1', '2', '3', '4', '5', '6', '7', '8','9']
 for number in numbers:
     if numer == numbers = [0]
