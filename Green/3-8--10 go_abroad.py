@@ -25,7 +25,7 @@ print(go_abroad)
 
 # Try 3-9
 guests_invitation = ['athena', 'jaye', 'season', 'sheeta']
-len(guests_invitation)
+print (len(guests_invitation))
 
 
 # Try 3-10
@@ -62,11 +62,11 @@ seventh_language = languages.pop()
 print("The seventh language I learn is " + seventh_language + '.')
 
 popular_language = 'Spainish'
-print(languages)
+print(popular_language)
 print(popular_language + " is the second language of the majority of Americans.")
 languages.remove(popular_language)
 languages.append('Chinese')
-
+print(popular_language)
 
 languages.sort()
 print(languages)
@@ -81,4 +81,4 @@ languages.reverse()
 print(languages)
 
 languages = ['Chinese', 'English', 'French', 'Japanese']
-len(languages)
+print (len(languages))
