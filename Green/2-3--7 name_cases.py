@@ -22,10 +22,11 @@ print(famous_person + message)
 
 
 # Try 2-7
+name = " Eric "
 print("name:\t\nEric")
 print("name:\n\t' eric '".title())
 
 
-print("Name:\n\t' Eric '".lstrip())
-print("Name:\n\t' Eric '".rstrip())
-print("Name:\n\t' Eric '".strip())
+print("Name:\n\t" + name.lstrip())
+print("Name:\n\t" + name.rstrip())
+print("Name:\n\t" + name.strip())
