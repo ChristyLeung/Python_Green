@@ -56,23 +56,23 @@ phases = ('age < 2', 'age >= 2 and < 4', 'age >= 4 and < 13', 'age >= 13 and < 2
 if phases == 'age < 2':
     message = "a baby"
 
-elif phases == 'age >= 2 and < 4':
+elif phases == 'age >= 2 and age < 4':
     message = "a toddle"
 
-elif phases == 'age >= 4 and < 13':
+elif phases == 'age >= 4 and age < 13':
     message = "a child"
 
-elif phases == 'age >= 13 and < 20':
+elif phases == 'age >= 13 and age < 20':
     message = "a teenager"
 
-elif phases == 'age >= 20 and < 65':
+elif phases == 'age >= 20 and age < 65':
     message = "an adule"
 
-elif phases == 'age >= 65':
+else:
     message = "a senior"
 
 age = 65
-print("\nHe is " + str[message] + ".\n")
+print("\nHe is " + message + ".\n")
 
 # Try 5-7
 favorite_fruits = ('apple', 'banana', 'watermelon')
