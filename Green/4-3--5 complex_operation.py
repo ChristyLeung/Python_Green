@@ -11,6 +11,6 @@ for numbers in range(1,1000001):
 
 # Try 4-5
 digits = list(range(1,1000001))
-min(digits)
-max(digits)
-sum(digits)
+print(min(digits))
+print(max(digits))
+print(sum(digits))
